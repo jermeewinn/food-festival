@@ -13,9 +13,9 @@ module.exports = {
             $: "jquery",
             jQuery: "jquery"
         }),
-        new webpack.BundleAnalyzerPlugin({
+        new BundleAnalyzerPlugin({
             analyzerMode: "static",
         })
     ],
     mode: 'development'
-};
+}; 
